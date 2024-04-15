@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222; 
+    color: #ddd; 
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1100px;
+    background-color: #333; 
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #fff; /* Texto branco */
+}
+
+.main-paragraph {
+    font-style: italic;
+    color: #bbb; /* Texto mais claro */
+}
+
+.featured-image {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.featured-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.biography {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+}
+
+.biography h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; 
+}
+
+.biography p {
+    margin-bottom: 15px;
+}
+
+.discografia {
+    padding: 20px 0;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #555;
+}
+
+.discografia h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; /* Texto branco */
+}
+
+.discografia h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.discografia ul {
+    padding-left: 20px;
+}
+.discografia li {
+    margin-bottom: 5px;
+}
+
+/* Estilizando a imagem com texto em negrito */
+.img-bold {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-bold img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.img-bold p {
+    font-weight: bold;
+}
+
